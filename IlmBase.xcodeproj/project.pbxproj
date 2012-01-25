@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABCBA4814CF933700A735F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABCBA4714CF933700A735F5 /* Foundation.framework */; };
+		CABCBA4E14CF933700A735F5 /* IlmBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CABCBA4D14CF933700A735F5 /* IlmBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CABCBA4414CF933700A735F5 /* libIlmBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIlmBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABCBA4714CF933700A735F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CABCBA4B14CF933700A735F5 /* IlmBase-Prefix.pch */ = {isa = PBXFileReference; path = "IlmBase-Prefix.pch"; sourceTree = "<group>"; };
+		CABCBA4C14CF933700A735F5 /* IlmBase.h */ = {isa = PBXFileReference; path = IlmBase.h; sourceTree = "<group>"; };
+		CABCBA4D14CF933700A735F5 /* IlmBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlmBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABCBA4114CF933700A735F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABCBA4814CF933700A735F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABCBA3914CF933700A735F5 = {
+			isa = PBXGroup;
+			children = (
+				CABCBA4914CF933700A735F5 /* IlmBase */,
+				CABCBA4614CF933700A735F5 /* Frameworks */,
+				CABCBA4514CF933700A735F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABCBA4514CF933700A735F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABCBA4414CF933700A735F5 /* libIlmBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABCBA4614CF933700A735F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CABCBA4714CF933700A735F5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CABCBA4914CF933700A735F5 /* IlmBase */ = {
+			isa = PBXGroup;
+			children = (
+				CABCBA4C14CF933700A735F5 /* IlmBase.h */,
+				CABCBA4D14CF933700A735F5 /* IlmBase.m */,
+				CABCBA4A14CF933700A735F5 /* Supporting Files */,
+			);
+			path = IlmBase;
+			sourceTree = "<group>";
+		};
+		CABCBA4A14CF933700A735F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CABCBA4B14CF933700A735F5 /* IlmBase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CABCBA4214CF933700A735F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CABCBA4314CF933700A735F5 /* IlmBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABCBA5114CF933700A735F5 /* Build configuration list for PBXNativeTarget "IlmBase" */;
+			buildPhases = (
+				CABCBA4014CF933700A735F5 /* Sources */,
+				CABCBA4114CF933700A735F5 /* Frameworks */,
+				CABCBA4214CF933700A735F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlmBase;
+			productName = IlmBase;
+			productReference = CABCBA4414CF933700A735F5 /* libIlmBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABCBA3B14CF933700A735F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "The 11ers";
+			};
+			buildConfigurationList = CABCBA3E14CF933700A735F5 /* Build configuration list for PBXProject "IlmBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CABCBA3914CF933700A735F5;
+			productRefGroup = CABCBA4514CF933700A735F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABCBA4314CF933700A735F5 /* IlmBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABCBA4014CF933700A735F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABCBA4E14CF933700A735F5 /* IlmBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CABCBA4F14CF933700A735F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CABCBA5014CF933700A735F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABCBA5214CF933700A735F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IlmBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IlmBase/IlmBase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CABCBA5314CF933700A735F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IlmBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IlmBase/IlmBase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABCBA3E14CF933700A735F5 /* Build configuration list for PBXProject "IlmBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABCBA4F14CF933700A735F5 /* Debug */,
+				CABCBA5014CF933700A735F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABCBA5114CF933700A735F5 /* Build configuration list for PBXNativeTarget "IlmBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABCBA5214CF933700A735F5 /* Debug */,
+				CABCBA5314CF933700A735F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABCBA3B14CF933700A735F5 /* Project object */;
+}
