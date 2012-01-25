@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'IlmBase' target in the 'IlmBase' project
-//
-
-#ifdef __OBJC__
-  #import <Foundation/Foundation.h>
-#endif
